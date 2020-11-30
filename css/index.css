@@ -1,0 +1,73 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#LayerOsnova
+{
+   background-color: #FBFBFB;
+   background-image: none;
+}
+#Image_1_1_FonVerh
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image_1_1_FonSeredina
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image_1_1_FonNiz
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageLogo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1StrNazvanie
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
