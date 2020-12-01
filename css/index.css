@@ -51,7 +51,7 @@ body
    width: 100%;
    height: 100%;
 }
-#ImageLogo
+#ImagePodLogo
 {
    border: 0px solid #000000;
    padding: 0;
@@ -62,6 +62,16 @@ body
    height: 100%;
 }
 #Image1StrNazvanie
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageLogo
 {
    border: 0px solid #000000;
    padding: 0;
