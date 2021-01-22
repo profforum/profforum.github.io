@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>forum</title>
+<title>Форум</title>
 <link href="ico120.svg" rel="shortcut icon" type="image/x-icon">
 <link href="Logo.png" rel="apple-touch-icon" sizes="120x120">
 <link href="css/профforum.css" rel="stylesheet">
 <link href="css/forum.css" rel="stylesheet">
+<script src="https://vk.com/js/api/openapi.js?168"></script>
 <!-- Yandex.Metrika counter -->
 <script >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -22,9 +23,17 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/69941761" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
-<body>
+<body <script src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script>
+  VK.init({apiId: 7736540, onlyWidgets: true});
+</script>
+
+<div id="vk_comments"></div>
+<script>
+VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
+</script>
 <div id="container">
-<iframe name="InlineFrame1" id="InlineFrame1" style="position:absolute;left:0px;top:0px;width:968px;height:1003px;z-index:0;" src="https://yandex.ru/chat/#/join/685179e0-1198-411c-8bc8-7ad92ee19174" scrolling="no"></iframe>
 </div>
 </body>
 </html>
