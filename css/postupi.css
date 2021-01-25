@@ -63,15 +63,57 @@ body
 }
 #ShapeSsylka1
 {
-   border-width: 0;
+   width: 531px;
+   height: 21px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapeSsylka1_text
+{
+   position: absolute;
+   left: 1px;
+   top: 4px;
+   width: 529px;
+   height: 16px;
+   overflow: hidden;
+   text-align: center;
 }
 #ShapeSsylka2
 {
-   border-width: 0;
+   width: 798px;
+   height: 21px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapeSsylka2_text
+{
+   position: absolute;
+   left: 1px;
+   top: 4px;
+   width: 796px;
+   height: 16px;
+   overflow: hidden;
+   text-align: center;
 }
 #ShapeSsylka3
 {
-   border-width: 0;
+   width: 331px;
+   height: 21px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapeSsylka3_text
+{
+   position: absolute;
+   left: 1px;
+   top: 4px;
+   width: 329px;
+   height: 16px;
+   overflow: hidden;
+   text-align: center;
 }
 #PostupiMenu_1
 {
@@ -85,7 +127,21 @@ body
 }
 #ShapePostupiMenu_1
 {
-   border-width: 0;
+   width: 234px;
+   height: 27px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapePostupiMenu_1_text
+{
+   position: absolute;
+   left: 1px;
+   top: 7px;
+   width: 232px;
+   height: 19px;
+   overflow: hidden;
+   text-align: center;
 }
 #PostupiMenu_2
 {
@@ -99,7 +155,21 @@ body
 }
 #ShapePostupiMenu_2
 {
-   border-width: 0;
+   width: 234px;
+   height: 27px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapePostupiMenu_2_text
+{
+   position: absolute;
+   left: 1px;
+   top: 7px;
+   width: 232px;
+   height: 19px;
+   overflow: hidden;
+   text-align: center;
 }
 #PostupiMenu_3
 {
@@ -113,7 +183,21 @@ body
 }
 #ShapePostupiMenu_3
 {
-   border-width: 0;
+   width: 234px;
+   height: 27px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapePostupiMenu_3_text
+{
+   position: absolute;
+   left: 1px;
+   top: 7px;
+   width: 232px;
+   height: 19px;
+   overflow: hidden;
+   text-align: center;
 }
 #PostupiMenu_0
 {
@@ -127,7 +211,21 @@ body
 }
 #ShapePostupiMenu_0
 {
-   border-width: 0;
+   width: 234px;
+   height: 27px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#ShapePostupiMenu_0_text
+{
+   position: absolute;
+   left: 1px;
+   top: 7px;
+   width: 232px;
+   height: 19px;
+   overflow: hidden;
+   text-align: center;
 }
 #LayerKartaObvodka
 {
