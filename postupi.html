@@ -7,6 +7,8 @@
 <link href="Logo.png" rel="apple-touch-icon" sizes="120x120">
 <link href="css/профforum.css" rel="stylesheet">
 <link href="css/postupi.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/PR.min.js"></script>
 <script src="https://vk.com/js/api/openapi.js?168"></script>
 <!-- Yandex.Metrika counter -->
 <script >
@@ -25,7 +27,7 @@
 </head>
 <body>
 <div id="container">
-<div id="LayerOsnova2" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1031px;z-index:17;">
+<div id="LayerOsnova2" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1031px;z-index:20;">
 <div id="wb_ImagePostuplenieFonNiz2" style="position:absolute;left:14px;top:394px;width:950px;height:601px;z-index:0;">
 <img src="images/3PostuplenieFonNiz.svg" id="ImagePostuplenieFonNiz2" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
 <div id="wb_ImagePostuplenieFonVerh" style="position:absolute;left:0px;top:10px;width:964px;height:230px;z-index:1;">
@@ -46,19 +48,22 @@
 </div>
 <div id="HtmlKodKarta" style="position:absolute;left:491px;top:844px;width:400px;height:120px;z-index:9">
 <script charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7c3ddd89c03f2d3c72bcd588f63a24ac8cbb4cfa87b9825ccb36a24816e58363&amp;width=400&amp;height=120&amp;lang=ru_RU&amp;scroll=true"></script></div>
-<div id="LayerSsylka1Postupi" style="position:absolute;text-align:left;left:45px;top:267px;width:531px;height:21px;z-index:10;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/situation/admission_to_the_university/submission_of_documents_to_universities');return false;">
+<div id="LayerSsylka1Postupi" style="position:absolute;text-align:left;left:45px;top:267px;width:531px;height:21px;z-index:10;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/situation/admission_to_the_university/submission_of_documents_to_universities');ShowObject('Line1Post', 1);return false;">
 </div>
-<div id="LayerSsylka2Postupi" style="position:absolute;text-align:left;left:45px;top:320px;width:798px;height:21px;z-index:11;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/10077/1');return false;">
+<hr id="Line1Post" style="position:absolute;left:45px;top:294px;width:531px;visibility:hidden;z-index:11;">
+<div id="LayerSsylka2Postupi" style="position:absolute;text-align:left;left:45px;top:320px;width:798px;height:21px;z-index:12;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/10077/1');ShowObject('Line2Post', 1);return false;">
 </div>
-<div id="LayerSsylka3Postupi" style="position:absolute;text-align:left;left:45px;top:371px;width:331px;height:21px;z-index:12;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/10077/1/form');return false;">
+<hr id="Line2Post" style="position:absolute;left:45px;top:346px;width:798px;visibility:hidden;z-index:13;">
+<div id="LayerSsylka3Postupi" style="position:absolute;text-align:left;left:45px;top:371px;width:331px;height:21px;z-index:14;cursor:pointer" onclick="window.open('https://www.gosuslugi.ru/10077/1/form');ShowObject('Line3Post', 1);return false;">
 </div>
-<div id="LayerPostupiMenu_0" style="position:absolute;text-align:left;left:680px;top:63px;width:235px;height:31px;z-index:13;cursor:pointer" onclick="window.location.href='./index.html';return false;">
+<hr id="Line3Post" style="position:absolute;left:45px;top:397px;width:331px;visibility:hidden;z-index:15;">
+<div id="LayerPostupiMenu_0" style="position:absolute;text-align:left;left:680px;top:63px;width:235px;height:31px;z-index:16;cursor:pointer" onclick="window.location.href='./index.html';return false;">
 </div>
-<div id="LayerPostupiMenu_1" style="position:absolute;text-align:left;left:680px;top:105px;width:235px;height:31px;z-index:14;cursor:pointer" onclick="window.location.href='./chat.html';return false;">
+<div id="LayerPostupiMenu_1" style="position:absolute;text-align:left;left:680px;top:105px;width:235px;height:31px;z-index:17;cursor:pointer" onclick="window.location.href='./chat.html';return false;">
 </div>
-<div id="LayerPostupiMenu_2" style="position:absolute;text-align:left;left:680px;top:144px;width:235px;height:31px;z-index:15;cursor:pointer" onclick="window.location.href='./zavedenie.html';return false;">
+<div id="LayerPostupiMenu_2" style="position:absolute;text-align:left;left:680px;top:144px;width:235px;height:31px;z-index:18;cursor:pointer" onclick="window.location.href='./zavedenie.html';return false;">
 </div>
-<div id="LayerPostupiMenu_3" style="position:absolute;text-align:left;left:680px;top:183px;width:235px;height:31px;z-index:16;cursor:pointer" onclick="window.location.href='./vakansii.html';return false;">
+<div id="LayerPostupiMenu_3" style="position:absolute;text-align:left;left:680px;top:183px;width:235px;height:31px;z-index:19;cursor:pointer" onclick="window.location.href='./vakansii.html';return false;">
 </div>
 </div>
 </div>
