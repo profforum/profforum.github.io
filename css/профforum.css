@@ -24,6 +24,28 @@ input:focus, textarea:focus, select:focus
 {
    visibility: hidden;
 }
+a.style1
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style1:visited
+{
+   color: #4F4F4F;
+   background: #3B9CA0;
+   text-decoration: none;
+}
+a.style1:active
+{
+   color: #FFFFFF;
+   background: #3B9CA0;
+   text-decoration: none;
+}
+a.style1:hover
+{
+   color: #4F4F4F;
+   text-decoration: none;
+}
 h1, .h1
 {
    font-family: Arial;
@@ -105,4 +127,12 @@ h6, .h6
    text-decoration: none;
    color: #2E74B5;
    background-color: transparent;
+}
+.style10
+{
+   text-decoration: none;
+   background-color: transparent;
+   border-radius: 1px;
+   cursor: pointer;
+   padding: 1em 1em 1em 1em;
 }
