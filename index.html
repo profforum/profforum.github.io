@@ -17,6 +17,8 @@ profforum
 <link href="Logo.png" rel="apple-touch-icon" sizes="120x120">
 <link href="css/профforum.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/PR.min.js"></script>
 <script src="https://vk.com/js/api/openapi.js?168"></script>
 <!-- Yandex.Metrika counter -->
 <script >
@@ -35,74 +37,138 @@ profforum
 </head>
 <body>
 <div id="container">
-<div id="wb_TextH1" style="position:absolute;left:193px;top:106px;width:250px;height:37px;z-index:27;">
+<div id="wb_TextH1" style="position:absolute;left:193px;top:106px;width:250px;height:37px;z-index:64;">
 <h1>ПРОФFORUM</h1></div>
-<div id="LayerOsnova" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1200px;z-index:28;">
-<div id="wb_Image_1_1_FonVerh" style="position:absolute;left:14px;top:10px;width:950px;height:339px;z-index:0;">
+<div id="LayerOsnova" style="position:absolute;text-align:left;left:0px;top:0px;width:970px;height:1200px;z-index:65;">
+<div id="wb_Image_1_1_FonVerh" style="position:absolute;left:14px;top:10px;width:950px;height:339px;z-index:8;">
 <img src="images/1_1_Fon.svg" id="Image_1_1_FonVerh" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
 <!-- 1 -->
-<div id="HtmlVremia" style="position:absolute;left:355px;top:190px;width:245px;height:89px;z-index:1">
+<div id="HtmlVremia" style="position:absolute;left:355px;top:190px;width:245px;height:89px;visibility:hidden;z-index:9">
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://e-timer.ru/js/etimer.js"></script>
 <script>
 	jQuery(document).ready(function() {
 		jQuery(".eTimer").eTimer({
-			etType: 0, etDate: "07.06.2022.9.0", etTitleText: "", etTitleSize: 10, etShowSign: 1, etSep: "|", etFontFamily: "Arial", etTextColor: "#fcfcfc", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#3fd796", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: "inset 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 30, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 0, etNumberBackground: "#3fd796", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+			etType: 0, etDate: "07.06.2021.9.0", etTitleText: "", etTitleSize: 10, etShowSign: 1, etSep: "|", etFontFamily: "Arial", etTextColor: "#fcfcfc", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#3fd796", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: "inset 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 30, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 0, etNumberBackground: "#3fd796", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
 		});
 	});
 </script>
 <div class="eTimer"></div></div>
-<div id="wb_TextVremiaDo" style="position:absolute;left:27px;top:234px;width:318px;height:21px;z-index:2;">
+<div id="wb_TextVremiaDo" style="position:absolute;left:27px;top:234px;width:318px;height:21px;visibility:hidden;z-index:10;">
 <img src="images/TextVremiaDo.svg" id="TextVremiaDo" alt=""></div>
-<div id="wb_Image_1_1_FonSeredina" style="position:absolute;left:14px;top:314px;width:951px;height:632px;z-index:3;">
+<div id="wb_Image_1_1_FonSeredina" style="position:absolute;left:14px;top:314px;width:951px;height:632px;z-index:11;">
 <img src="images/1_2_Fon.svg" id="Image_1_1_FonSeredina" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Image_1_1_FonNiz" style="position:absolute;left:14px;top:912px;width:950px;height:186px;z-index:4;">
+<div id="wb_Image_1_1_FonNiz" style="position:absolute;left:14px;top:912px;width:950px;height:186px;z-index:12;">
 <img src="images/1_3_Fon.svg" id="Image_1_1_FonNiz" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImagePodLogo" style="position:absolute;left:49px;top:0px;width:572px;height:201px;z-index:5;">
+<div id="wb_ImagePodLogo" style="position:absolute;left:49px;top:0px;width:572px;height:201px;z-index:13;">
 <img src="images/podLogo.svg" id="ImagePodLogo" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Image1StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;z-index:6;">
-<img src="images/Str1_Nazvanie.svg" id="Image1StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImageLogo" style="position:absolute;left:69px;top:82px;width:470px;height:75px;z-index:7;">
+<div id="wb_Image1StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;z-index:14;">
+<img src="images/Str1_NazvanieBibl.svg" id="Image1StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image2StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:15;">
+<img src="images/Str1_NazvanieKult.svg" id="Image2StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image3StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:16;">
+<img src="images/Str1_Nazvanie.svg" id="Image3StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image4StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:17;">
+<img src="images/Str1_NazvanieMuzey.svg" id="Image4StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image5StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:18;">
+<img src="images/Str1_NazvanieMuz.svg" id="Image5StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image6StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:19;">
+<img src="images/Str1_NazvanieSelo.svg" id="Image6StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image7StrNazvanie" style="position:absolute;left:0px;top:276px;width:571px;height:65px;visibility:hidden;z-index:20;">
+<img src="images/Str1_NazvanieUchitel.svg" id="Image7StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_ImageLogo" style="position:absolute;left:69px;top:82px;width:470px;height:75px;z-index:21;">
 <img src="images/Logo.gif" id="ImageLogo" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Menu_1" style="position:absolute;left:679px;top:38px;width:288px;height:66px;z-index:8;">
+<div id="wb_Menu_1" style="position:absolute;left:679px;top:38px;width:288px;height:66px;z-index:22;">
 <img src="images/menuChat.svg" id="Menu_1" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Menu_2" style="position:absolute;left:679px;top:88px;width:288px;height:66px;z-index:9;">
+<div id="wb_Menu_2" style="position:absolute;left:679px;top:88px;width:288px;height:66px;z-index:23;">
 <img src="images/menuZavedenie.svg" id="Menu_2" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Menu_3" style="position:absolute;left:679px;top:138px;width:288px;height:66px;z-index:10;">
+<div id="wb_Menu_3" style="position:absolute;left:679px;top:138px;width:288px;height:66px;z-index:24;">
 <img src="images/menuPostupi.svg" id="Menu_3" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_Menu_4" style="position:absolute;left:679px;top:188px;width:288px;height:66px;z-index:11;">
+<div id="wb_Menu_4" style="position:absolute;left:679px;top:188px;width:288px;height:66px;z-index:25;">
 <img src="images/menuVakansii.svg" id="Menu_4" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="MenuNashCat" style="position:absolute;text-align:left;left:679px;top:73px;width:233px;height:31px;z-index:12;cursor:pointer" onclick="window.location.href='./chat.html';return false;">
+<div id="MenuNashCat" style="position:absolute;text-align:left;left:679px;top:73px;width:233px;height:31px;z-index:26;cursor:pointer" onclick="window.location.href='./chat.html';return false;">
 </div>
-<div id="MenuZavedenie" style="position:absolute;text-align:left;left:679px;top:123px;width:233px;height:31px;z-index:13;cursor:pointer" onclick="window.location.href='./zavedenie.html';return false;">
+<div id="MenuZavedenie" style="position:absolute;text-align:left;left:679px;top:123px;width:233px;height:31px;z-index:27;cursor:pointer" onclick="window.location.href='./zavedenie.html';return false;">
 </div>
-<div id="MenuPostupi" style="position:absolute;text-align:left;left:679px;top:173px;width:233px;height:31px;z-index:14;cursor:pointer" onclick="window.location.href='./postupi.html';return false;">
+<div id="MenuPostupi" style="position:absolute;text-align:left;left:679px;top:173px;width:233px;height:31px;z-index:28;cursor:pointer" onclick="window.location.href='./postupi.html';return false;">
 </div>
-<div id="MenuVakansii" style="position:absolute;text-align:left;left:679px;top:223px;width:233px;height:31px;z-index:15;cursor:pointer" onclick="window.location.href='./vakansii.html';return false;">
+<div id="MenuVakansii" style="position:absolute;text-align:left;left:679px;top:223px;width:233px;height:31px;z-index:29;cursor:pointer" onclick="window.location.href='./vakansii.html';return false;">
 </div>
-<div id="wb_Imggrcbs" style="position:absolute;left:30px;top:973px;width:441px;height:23px;z-index:16;">
+<div id="wb_Imggrcbs" style="position:absolute;left:30px;top:973px;width:441px;height:23px;z-index:30;">
 <img src="images/TextGRCBS.svg" id="Imggrcbs" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImgSaitText" style="position:absolute;left:30px;top:1005px;width:395px;height:23px;z-index:17;">
+<div id="wb_ImgSaitText" style="position:absolute;left:30px;top:1005px;width:395px;height:23px;z-index:31;">
 <a href="https://glazovskaya-r-bibl.wixsite.com/grcbs" target="_blank"><img src="images/TextGRCBSadres.svg" id="ImgSaitText" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
-<div id="wb_ImgVKlogo" style="position:absolute;left:30px;top:1043px;width:33px;height:31px;z-index:18;">
+<div id="wb_ImgVKlogo" style="position:absolute;left:30px;top:1043px;width:33px;height:31px;z-index:32;">
 <img src="images/VKico2.svg" id="ImgVKlogo" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImgVKtext" style="position:absolute;left:76px;top:1047px;width:348px;height:27px;z-index:19;">
+<div id="wb_ImgVKtext" style="position:absolute;left:76px;top:1047px;width:348px;height:27px;z-index:33;">
 <a href="https://vk.com/glazov.rayon.bibl" target="_blank"><img src="images/TextVKadres.svg" id="ImgVKtext" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
-<div id="wb_ImgLogoTel" style="position:absolute;left:500px;top:974px;width:100px;height:22px;z-index:20;">
+<div id="wb_ImgLogoTel" style="position:absolute;left:500px;top:974px;width:100px;height:22px;z-index:34;">
 <img src="images/TelText.svg" id="ImgLogoTel" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImgTelText" style="position:absolute;left:617px;top:976px;width:267px;height:19px;z-index:21;">
+<div id="wb_ImgTelText" style="position:absolute;left:617px;top:976px;width:267px;height:19px;z-index:35;">
 <a href="tel:+79508225179"><img src="images/TelTextCifry.svg" id="ImgTelText" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
-<div id="wb_ImgEmailLogo" style="position:absolute;left:525px;top:1014px;width:78px;height:19px;z-index:22;">
+<div id="wb_ImgEmailLogo" style="position:absolute;left:525px;top:1014px;width:78px;height:19px;z-index:36;">
 <img src="images/Email.svg" id="ImgEmailLogo" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
-<div id="wb_ImgEmailText" style="position:absolute;left:617px;top:1012px;width:186px;height:23px;z-index:23;">
+<div id="wb_ImgEmailText" style="position:absolute;left:617px;top:1012px;width:186px;height:23px;z-index:37;">
 <a href="mailto:cbs@glazrayon.ru"><img src="images/EmailText.svg" id="ImgEmailText" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
-<div id="wb_ImgPolitikaK" style="position:absolute;left:496px;top:1051px;width:300px;height:19px;z-index:24;">
+<div id="wb_ImgPolitikaK" style="position:absolute;left:496px;top:1051px;width:300px;height:19px;z-index:38;">
 <a href="./politika.html" target="_blank"><img src="images/PolitikaK.svg" id="ImgPolitikaK" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
-<div id="wb_YouTube1" style="position:absolute;left:36px;top:432px;width:855px;height:480px;z-index:25;">
-<iframe id="YouTube1" src="https://www.youtube.com/embed/U9wtPMMdwO0?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+<div id="wb_YouTube1" style="position:absolute;left:36px;top:432px;width:855px;height:480px;z-index:39;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/OzlP8q0T8L8?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 </div>
-<div id="wb_TextNa1Str" style="position:absolute;left:38px;top:365px;width:815px;height:51px;z-index:26;">
-<img src="images/TextNa1Str.svg" id="TextNa1Str" alt=""></div>
+<div id="wb_YouTube2" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:40;">
+<iframe id="YouTube2" src="https://www.youtube.com/embed/wkdkeYsggAI?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_YouTube3" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:41;">
+<iframe id="YouTube3" src="https://www.youtube.com/embed/U9wtPMMdwO0?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_YouTube4" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:42;">
+<iframe id="YouTube4" src="https://www.youtube.com/embed/cjPSDNpYIck?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_YouTube5" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:43;">
+<iframe id="YouTube5" src="https://www.youtube.com/embed/nL9rzY8sRrQ?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_YouTube6" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:44;">
+<iframe id="YouTube6" src="https://www.youtube.com/embed/XLFoSfF0RW8?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_YouTube7" style="position:absolute;left:36px;top:432px;width:855px;height:480px;visibility:hidden;z-index:45;">
+<iframe id="YouTube7" src="https://www.youtube.com/embed/-iZRJ1cQBlA?rel=0&amp;showinfo=0&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
+</div>
+<div id="wb_TextNa1Str" style="position:absolute;left:38px;top:355px;width:715px;height:65px;z-index:46;">
+<img src="images/TextNa1StrBibl.svg" id="TextNa1Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa2Str" style="position:absolute;left:38px;top:350px;width:740px;height:75px;visibility:hidden;z-index:47;">
+<img src="images/TextNa1StrKult.svg" id="TextNa2Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa3Str" style="position:absolute;left:38px;top:360px;width:832px;height:53px;visibility:hidden;z-index:48;">
+<img src="images/TextNa1Str.svg" id="TextNa3Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa4Str" style="position:absolute;left:38px;top:367px;width:834px;height:37px;visibility:hidden;z-index:49;">
+<img src="images/TextNa1StrMuzey.svg" id="TextNa4Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa5Str" style="position:absolute;left:38px;top:362px;width:851px;height:53px;visibility:hidden;z-index:50;">
+<img src="images/TextNa1StrMuz.svg" id="TextNa5Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa6Str" style="position:absolute;left:38px;top:355px;width:692px;height:65px;visibility:hidden;z-index:51;">
+<img src="images/TextNa1StrSelo.svg" id="TextNa6Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_TextNa7Str" style="position:absolute;left:38px;top:368px;width:840px;height:35px;visibility:hidden;z-index:52;">
+<img src="images/TextNa1StrUchitel.svg" id="TextNa7Str" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="wb_Image0StrNazvanie" style="position:absolute;left:0px;top:207px;width:350px;height:65px;z-index:53;">
+<a href="#" onclick="ShowObject('wb_ImageSpisok', 1);ShowObject('LayerKnopkiProfessiy', 1);return false;"><img src="images/Str1_NazvanieSpisok.svg" id="Image0StrNazvanie" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></a></div>
+<div id="wb_ImageSpisok" style="position:absolute;left:0px;top:267px;width:346px;height:308px;visibility:hidden;z-index:54;">
+<img src="images/SpisokProf.svg" id="ImageSpisok" alt="" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"></div>
+<div id="LayerKnopkiProfessiy" style="position:absolute;text-align:left;visibility:hidden;left:25px;top:281px;width:293px;height:283px;z-index:55;">
+<div id="Layer1" style="position:absolute;text-align:left;left:11px;top:9px;width:157px;height:14px;z-index:0;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image1StrNazvanie', 1);ShowObject('wb_TextNa1Str', 1);ShowObject('wb_YouTube1', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer2" style="position:absolute;text-align:left;left:13px;top:46px;width:163px;height:14px;z-index:1;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image2StrNazvanie', 1);ShowObject('wb_TextNa2Str', 1);ShowObject('wb_YouTube2', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer3" style="position:absolute;text-align:left;left:13px;top:86px;width:250px;height:14px;z-index:2;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image3StrNazvanie', 1);ShowObject('wb_TextNa3Str', 1);ShowObject('wb_YouTube3', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer4" style="position:absolute;text-align:left;left:13px;top:125px;width:214px;height:14px;z-index:3;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image4StrNazvanie', 1);ShowObject('wb_TextNa4Str', 1);ShowObject('wb_YouTube4', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer5" style="position:absolute;text-align:left;left:13px;top:161px;width:108px;height:14px;z-index:4;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image5StrNazvanie', 1);ShowObject('wb_TextNa5Str', 1);ShowObject('wb_YouTube5', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer6" style="position:absolute;text-align:left;left:13px;top:201px;width:250px;height:14px;z-index:5;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image6StrNazvanie', 1);ShowObject('wb_TextNa6Str', 1);ShowObject('wb_YouTube6', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer7" style="position:absolute;text-align:left;left:13px;top:215px;width:122px;height:17px;z-index:6;cursor:pointer" onclick="ShowObject('wb_Image7StrNazvanie', 0);ShowObject('wb_TextNa7Str', 0);ShowObject('wb_YouTube7', 0);ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image6StrNazvanie', 1);ShowObject('wb_TextNa6Str', 1);ShowObject('wb_YouTube6', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+<div id="Layer8" style="position:absolute;text-align:left;left:13px;top:254px;width:90px;height:14px;z-index:7;cursor:pointer" onclick="ShowObject('wb_Image1StrNazvanie', 0);ShowObject('wb_TextNa1Str', 0);ShowObject('wb_YouTube1', 0);ShowObject('wb_Image6StrNazvanie', 0);ShowObject('wb_TextNa6Str', 0);ShowObject('wb_YouTube6', 0);ShowObject('wb_Image5StrNazvanie', 0);ShowObject('wb_TextNa5Str', 0);ShowObject('wb_YouTube5', 0);ShowObject('wb_Image4StrNazvanie', 0);ShowObject('wb_TextNa4Str', 0);ShowObject('wb_YouTube4', 0);ShowObject('wb_Image3StrNazvanie', 0);ShowObject('wb_TextNa3Str', 0);ShowObject('wb_YouTube3', 0);ShowObject('wb_Image2StrNazvanie', 0);ShowObject('wb_TextNa2Str', 0);ShowObject('wb_YouTube2', 0);ShowObject('wb_Image7StrNazvanie', 1);ShowObject('wb_TextNa7Str', 1);ShowObject('wb_YouTube7', 1);ShowObject('wb_ImageSpisok', 0);ShowObject('LayerKnopkiProfessiy', 0);return false;">
+</div>
+</div>
 </div>
 </div>
 </body>
