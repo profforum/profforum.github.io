@@ -20,5 +20,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("vakansii.html", "Вакансии", " ", "");
    this[database_length++] = new SearchPage("yandex_94700453beac3f3c.html", "yandex_94700453beac3f3c", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_advokat.html", "Учебные заведения Профессия виртуальный адвокат", " ", "");
+   this[database_length++] = new SearchPage("u_zavedenie_v_telemed.html", "Учебные заведения Профессия виртуальный адвокат", " ", "");
    return this;
 }
