@@ -1,0 +1,11 @@
+Model Information:
+* title:	USSR star
+* source:	https://sketchfab.com/3d-models/ussr-star-456dcf58a4b04c2f852a0af6180e9d11
+* author:	Ashkelon (https://sketchfab.com/Ashkelon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "USSR star" (https://sketchfab.com/3d-models/ussr-star-456dcf58a4b04c2f852a0af6180e9d11) by Ashkelon (https://sketchfab.com/Ashkelon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
