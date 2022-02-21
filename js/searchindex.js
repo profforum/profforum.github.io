@@ -1,3 +1,4 @@
+// search index for WYSIWYG Web Builder
 var database_length = 0;
 
 function SearchPage(url, title, keywords, description)
@@ -21,5 +22,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("u_zavedenie_v_advokat.html", "Учебные заведения Профессия виртуальный адвокат", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_telemed.html", "Учебные заведения Профессия врач телемедицины", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_dizayn.html", "Учебные заведения Профессия графический дизайнер", " ", "");
+   this[database_length++] = new SearchPage("u_zavedenie_v_inzhener.html", "Учебные заведения Профессия графический дизайнер", " ", "");
    return this;
 }
