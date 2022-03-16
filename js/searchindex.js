@@ -23,5 +23,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("u_zavedenie_v_dizayn.html", "Учебные заведения Профессия графический дизайнер", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_inzhener.html", "Учебные заведения Профессия инженер-разработчик в области Интернета вещей", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_geron.html", "Учебные заведения Профессия геронтоконсультант", " ", "");
+   this[database_length++] = new SearchPage("u_zavedenie_v_kouching.html", "Учебные заведения Профессия коучинг", " ", "");
    return this;
 }
