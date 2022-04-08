@@ -1,0 +1,369 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#TextVremiaDo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_TextH1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextH1 div
+{
+   text-align: left;
+}
+#LayerOsnova
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Image_1_1_FonVerh
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image_1_1_FonSeredina
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image_1_1_FonNiz
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImagePodLogo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageLogo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Menu_1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Menu_2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Menu_3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MenuNashCat
+{
+   background-color: transparent;
+   background-image: none;
+}
+#MenuZavedenie
+{
+   background-color: transparent;
+   background-image: none;
+}
+#MenuPostupi
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Menu_4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MenuVakansii
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Imggrcbs
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgSaitText
+{
+   border: 0px solid transparent;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgVKtext
+{
+   border: 0px solid transparent;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgVKlogo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgLogoTel
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgTelText
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgEmailLogo
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgEmailText
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImgPolitikaK
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#YouTube3
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#Image3StrNazvanie
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#TextNa3Str
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image0StrNazvanie
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#ImageSpisok
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer4
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer7
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer8
+{
+   background-color: transparent;
+   background-image: none;
+}
+#LayerKnopkiProfessiy
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer9
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer10
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer11
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer12
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer13
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer14
+{
+   background-color: transparent;
+   background-image: none;
+}
