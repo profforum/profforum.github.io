@@ -24,5 +24,18 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("u_zavedenie_v_inzhener.html", "Учебные заведения Профессия инженер-разработчик в области Интернета вещей", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_geron.html", "Учебные заведения Профессия геронтоконсультант", " ", "");
    this[database_length++] = new SearchPage("u_zavedenie_v_kouching.html", "Учебные заведения Профессия коучинг", " ", "");
+   this[database_length++] = new SearchPage("str1.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str2.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str3.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str4.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str5.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str6.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str7.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str8.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str9.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str10.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str11.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str12.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
+   this[database_length++] = new SearchPage("str13.html", "ПРОФFORUM", "ПРОФFORUM   ", "");
    return this;
 }
