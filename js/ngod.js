@@ -1,4 +1,4 @@
-document.write('<span id="ny_date">До нового года</span>')
+document.write('<span id="ny_date" style="position: absolute; top: 6px; left: 10px; color: #ff0000; z-index: 9999;">До нового года</span>')
 function ojidanieNG()
 {
     var today = new Date();
