@@ -1,4 +1,4 @@
-document.write('<span id="ny_date" style="position: absolute; top: 6px; left: 10px; color: #ff0000; z-index: 9999;">До нового года</span>')
+document.write('<span id="ny_date">До нового года</span>')
 function ojidanieNG()
 {
     var today = new Date();
@@ -18,8 +18,8 @@ function ojidanieNG()
     var seksLeft = Math.floor((e_minsLeft - minsLeft)*60);
 
  if (BigDay.getTime() > today.getTime() )
-        document.getElementById("ny_date").innerHTML = 'До <font color=red><b>Нового года</b></font>: <b>'+daysLeft+'</b> дней, <b>'+hrsLeft+'</b> часов, <b>'+minsLeft+'</b> минут, <b>'+seksLeft+'</b> секунд'
+        document.getElementById("ny_date").innerHTML = '<font color=red>До <b>Нового года</b>: <b>'+daysLeft+'</b> дней, <b>'+hrsLeft+'</b> часов, <b>'+minsLeft+'</b> минут, <b>'+seksLeft+'</b> секунд</font>'
     else
-        document.getElementById("ny_date").innerHTML = '<b>Поздравляем с <font color=red>Новым 2024 годом</font>!!!</b>'
+        document.getElementById("ny_date").innerHTML = '<font color=red><b>Поздравляем с Новым 2024 годом !!!</font></b>'
 }
 setInterval("ojidanieNG()", 50)
