@@ -18,7 +18,7 @@ function ojidanieNG()
     var seksLeft = Math.floor((e_minsLeft - minsLeft)*60);
 
  if (BigDay.getTime() > today.getTime() )
-        document.getElementById("ny_date").innerHTML = '<font color=red>До <b>Нового года</b>: <b>'+daysLeft+'</b> дней, <b>'+hrsLeft+'</b> часов, <b>'+minsLeft+'</b> минут, <b>'+seksLeft+'</b> секунд</font>'
+        document.getElementById("ny_date").innerHTML = '<font color=red>До <b>Нового года</b>: <b>'+daysLeft+'</b> д, <b>'+hrsLeft+'</b> ч, <b>'+minsLeft+'</b> м, <b>'+seksLeft+'</b> с</font>'
     else
         document.getElementById("ny_date").innerHTML = '<font color=red><b>Поздравляем с Новым 2024 годом !!!</font></b>'
 }
