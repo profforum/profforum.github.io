@@ -244,7 +244,7 @@ body
    width: 100%;
    height: 100%;
 }
-#YouTube3
+#YouTube16
 {
    left: 0;
    top: 0;
@@ -252,7 +252,7 @@ body
    height: 100%;
    border-width: 0;
 }
-#Image3StrNazvanie
+#Image15StrNazvanie
 {
    border: 0px solid #000000;
    padding: 0;
@@ -262,7 +262,7 @@ body
    width: 100%;
    height: 100%;
 }
-#TextNa3Str
+#TextNa7Str
 {
    border: 0px solid #000000;
    padding: 0;
@@ -283,6 +283,16 @@ body
    height: 100%;
 }
 #ImageSpisok
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image16KudaPostupit
 {
    border: 0px solid #000000;
    padding: 0;

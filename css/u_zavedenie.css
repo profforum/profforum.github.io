@@ -548,3 +548,18 @@ body
    box-shadow: none;
    text-align: center;
 }
+.ToolTip22
+{
+   background-image: none;
+   background-color: #7ED15B;
+   border: 0px #CCCCCC solid !important;
+   border-radius: 0px;
+   padding: 4px 4px 4px 4px;
+   box-shadow: none;
+   text-align: center;
+}
+#LayerSsylka22
+{
+   background-color: transparent;
+   background-image: none;
+}
