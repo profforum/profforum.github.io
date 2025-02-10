@@ -20,10 +20,16 @@ body
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
+}
+#wb_ImageZavedenieFonNiz
+{
+   vertical-align: top;
 }
 #ImageZavedenieFonNiz
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -31,9 +37,14 @@ body
    width: 100%;
    height: 100%;
 }
+#wb_ImageZavedenieFonVerh
+{
+   vertical-align: top;
+}
 #ImageZavedenieFonVerh
 {
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    left: 0;
@@ -45,52 +56,60 @@ body
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerZavedenieMenu_1
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerZavedenieMenu_2
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerZavedenieMenu_3
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka1
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka2
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka3
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka4
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #Line2
 {
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -98,37 +117,42 @@ body
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka6
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka7
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka9
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka10
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #Line1
 {
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -137,11 +161,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -150,11 +174,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -163,11 +187,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -176,11 +200,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -189,11 +213,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -202,11 +226,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -215,11 +239,11 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -228,194 +252,48 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
-}
-.ToolTip1
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip2
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip3
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip4
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip5
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip6
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip7
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip8
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip9
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip10
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip11
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip12
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip13
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip14
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip15
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
 }
 #LayerSsylka12
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka13
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka14
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka15
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
-#Line12
+#Line21
 {
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -424,34 +302,24 @@ body
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
-.ToolTip16
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-#Line14
+#Line19
 {
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
 }
@@ -459,107 +327,67 @@ body
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka17
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka18
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka19
 {
    background-color: transparent;
    background-image: none;
-}
-.ToolTip17
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
    border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip18
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip19
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
 }
 #LayerSsylka20
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #LayerSsylka21
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
 }
 #Line16
 {
    border-color: #D2691E;
    border-style: solid;
    border-bottom-width: 5px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
    height: 0 !important;
-   line-height: 0px !important;
+   line-height: 0 !important;
    margin: 0;
    padding: 0;
-}
-.ToolTip20
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip21
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
-}
-.ToolTip22
-{
-   background-image: none;
-   background-color: #7ED15B;
-   border: 0px #CCCCCC solid !important;
-   border-radius: 0px;
-   padding: 4px 4px 4px 4px;
-   box-shadow: none;
-   text-align: center;
 }
 #LayerSsylka22
 {
    background-color: transparent;
    background-image: none;
+   border-radius: 0px;
+}
+#Line22
+{
+   border-color: #D2691E;
+   border-style: solid;
+   border-bottom-width: 5px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
 }
